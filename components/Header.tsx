@@ -5,7 +5,7 @@ import Link from "next/link";
 import { headerData } from "@/lib/siteData";
 
 export default function Header() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   const [isNavVisible, setIsNavVisible] = useState(false);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const menuRef = useRef<any>(null);
@@ -110,9 +110,9 @@ export default function Header() {
           ref={menuRef}
         >
           {/* <h6 id="phone" className="font-outfit font-semibold dark:text-white">Phone:</h6>
-                    {headerData.phoneNumbers.map((phone, index) => (
-                        <p key={index} className="text-pColor dark:text-white/80">{phone}</p>
-                    ))} */}
+                        {headerData.phoneNumbers.map((phone, index) => (
+                            <p key={index} className="text-pColor dark:text-white/80">{phone}</p>
+                        ))} */}
           <div className="mt-4">
             <h6
               id="email"

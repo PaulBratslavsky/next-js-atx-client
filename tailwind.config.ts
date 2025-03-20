@@ -17,10 +17,12 @@ export default {
       colors: {
         'bodyBg': '#f1f5fa',
         'darkBodyBg': '#14181a',
-        'charcoal': '#2c3943',
+        'charcoal': '#261e30',
         'pColor': '#515456',
         'customPurple': '#9C7ECE',
         'customPurpleDarker': '#7C64A4',
+        'customDark': "#110d15",
+        'customDarkDarker': "#0f0e12",
         'steelBlue': '#7E88CE',
         'steelBlueDarker': '#646CA4',
       },
