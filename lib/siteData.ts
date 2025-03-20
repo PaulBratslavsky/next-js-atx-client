@@ -31,7 +31,7 @@ export const servicesData = [
     },
     {
         title: '390+',
-        description: 'Awesome people have joined us so far',
+        description: 'Awesome people have joined us so far.',
     },
 ]
 
