@@ -11,13 +11,12 @@ export const headerData = {
 }
 
 export const heroData = {
-    avatarSrc: '/images/avatar.png',
+    avatarSrc: '/images/meetup.avif',
     title: "Welcome to Next.js ATX meetup, where we bring interesting people to share, and learn.",
     hireStatus: 'Join Next.js ATX meetup',
     socialLinks: [
-        { bootstrapIcons: "bi bi-facebook", href: "#" },
-        { bootstrapIcons: "bi bi-instagram", href: "#" },
-        { bootstrapIcons: "bi bi-twitter-x", href: "#" },
+        { bootstrapIcons: "bi bi-twitter-x", href: "https://x.com/codingthirty" },
+        { bootstrapIcons: "bi bi-linkedin", href: "https://www.linkedin.com/in/paulbratslavsky" },
     ],
 }
 
